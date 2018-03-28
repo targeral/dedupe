@@ -1,0 +1,33 @@
+{
+  "name": "dedupe-g",
+  "version": "1.0.0",
+  "description": "数组内部值的去重.Study from seriousManual/dedupe",
+  "main": "index.js",
+  "scripts": {
+    "standard:fix": "standard --fix ./index.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targeral/dedupe.git"
+  },
+  "keywords": [
+    "duplicates",
+    "array",
+    "remove duplicates",
+    "distinct",
+    "deduplicate",
+    "deduplication"
+  ],
+  "author": "targeral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/targeral/dedupe/issues"
+  },
+  "homepage": "https://github.com/targeral/dedupe#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5",
+    "standard": "^11.0.1"
+  }
+}
